@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="menubar">
+        <div class="block top">Web Week</div>
+        <div class="block menu" onclick="slidingw1(); changeIframeSrc('https://cieun.github.io/2024sisoweek1/');">Week 1</div>
+        <div class="block descript" id="week1">
+            <p>web liminal space</p>
+            <p>하이퍼 텍스트가 없는 웹은 우리를 사방이 막히고, 차갑고, 딱딱한 곳에 덩그러니 남겨놓을뿐이다.</p>
+        </div>
+        <div class="block menu" onclick="slidingw2()">Week 2</div>
+        <div class="block descript" id="week2">
+            <p>점검중!</p>
+            <p></p>
+        </div>
+        <div class="block menu" onclick="slidingw3(); changeIframeSrc('https://cieun.github.io/page3/')">Week 3</div>
+        <div class="block descript" id="week3">
+            <p>웹에 사시는 그분 귀하</p>
+            <p>웹상에 있는 수많은 주소들 중 한 곳에 살고 계실 그 분을 흠모하며.</p>
+        </div>
+        <div class="block menu" onclick="slidingw4()">Week 4</div>
+        <div class="block descript" id="week4">
+            <p>점검중!</p>
+            <p></p>
+        </div>
+    </div>
+
+    <div id="content"><iframe id="myIframe" src="https://cieun.github.io/page3/"></iframe></div>
+    <script src="./script.js"></script>
+</body>
+</html>
